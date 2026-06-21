@@ -165,4 +165,31 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1500);
         });
     }
+
+    // Category Filtering
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    if(filterBtns.length > 0) {
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(b => b.classList.remove('active-filter'));
+                // Add active class to clicked button
+                btn.classList.add('active-filter');
+                
+                const filterValue = btn.getAttribute('data-filter');
+                
+                playlistItems.forEach(item => {
+                    if(filterValue === 'all') {
+                        item.style.display = 'flex';
+                    } else {
+                        if(item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    }
 });

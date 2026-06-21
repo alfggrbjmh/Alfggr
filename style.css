@@ -119,6 +119,11 @@ html {
     color: var(--accent-primary);
 }
 
+.active-filter {
+    border-color: var(--accent-primary) !important;
+    color: var(--accent-primary) !important;
+}
+
 .btn-block {
     display: block;
     width: 100%;
