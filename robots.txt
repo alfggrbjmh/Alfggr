@@ -1,4 +1,6 @@
+# robots.txt for ALFGGR (Already Let First Gaming Good Right)
 User-agent: *
 Allow: /
 
+# Explicitly declare sitemap location
 Sitemap: https://alfggr.com/sitemap.xml
