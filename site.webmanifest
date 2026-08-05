@@ -1,0 +1,23 @@
+{
+  "name": "ALFGGR - Already Let First Gaming Good Right",
+  "short_name": "ALFGGR",
+  "description": "Welcome to the digital zone of ALFGGR, a YouTube gaming creator focused on Shadow Fight, Honkai Star Rail, and Punishing Gray Raven.",
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#0a0b10",
+  "background_color": "#0a0b10",
+  "display": "standalone",
+  "start_url": "/index.html"
+}
