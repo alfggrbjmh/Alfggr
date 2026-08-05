@@ -1,6 +1,36 @@
-# robots.txt for ALFGGR (Already Let First Gaming Good Right)
+# ==========================================================
+# Robots.txt for ALFGGR (Already Let First Gaming Good Right)
+# Optimized for Search Engines (SEO) & AI Overview Engines
+# Last Updated: 2026-08-05
+# ==========================================================
+
+# Standard Web Search Crawlers (Google, Bing, Yahoo, etc.)
 User-agent: *
 Allow: /
+Disallow: /live.html # Disallow crawling of empty placeholder page
 
-# Explicitly declare sitemap location
+# AI Search & Overview Crawlers (Google Gemini, OpenAI GPT, Perplexity, etc.)
+# Explicitly allowed to maximize indexing for AI Overviews and chatbot queries
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap Location
 Sitemap: https://alfggr.com/sitemap.xml
