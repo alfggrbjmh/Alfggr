@@ -60,7 +60,9 @@ html {
 .highlight {
     background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
     font-weight: 800;
 }
 
@@ -418,6 +420,38 @@ section {
 
 .about-card p {
     color: var(--text-muted);
+}
+
+/* Devices Section */
+.device-card {
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.device-img-box {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid var(--glass-border);
+    position: relative;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.device-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.about-card:hover .device-img-box img,
+.device-card:hover .device-img-box img {
+    transform: scale(1.05);
 }
 
 /* Hub Section */
