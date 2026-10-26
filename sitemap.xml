@@ -22,6 +22,14 @@
       <image:loc>https://alfggr.com/img/punis.png</image:loc>
       <image:title>Punishing Gray Raven Gameplay - ALFGGR</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://alfggr.com/img/device-mobile.jpg</image:loc>
+      <image:title>Samsung Galaxy A12 Gaming Device - ALFGGR</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://alfggr.com/img/device-laptop.jpg</image:loc>
+      <image:title>Lenovo IdeaPad Slim 3 Gaming Laptop - ALFGGR</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://alfggr.com/video.html</loc>
